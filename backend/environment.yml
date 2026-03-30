@@ -1,0 +1,13 @@
+name: deepfake
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - tensorflow==2.20.0
+    - fastapi==0.110.0
+    - "uvicorn[standard]==0.27.1"
+    - numpy==1.24.4
+    - pillow==9.5.0
+    - python-multipart==0.0.6

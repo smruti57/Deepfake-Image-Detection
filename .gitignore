@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+backend/.venv39/
+
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# ML models (IMPORTANT)
+*.h5
+*.pkl
+*.joblib
+
+# Model directories
+models/
+backend/models/
+
+# Dataset (optional but recommended)
+data/
+dataset/
+
+# OS files
+.DS_Store
+Thumbs.db

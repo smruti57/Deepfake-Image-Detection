@@ -1,0 +1,27 @@
+# Python and env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+.venv39/
+
+# dotenv
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+backend/.venv39/
+.venv/
+venv/
+models/
+backend/models/
+*.h5
+*.pkl
